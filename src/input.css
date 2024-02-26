@@ -5,9 +5,25 @@
 @tailwind utilities;
 
 * {
-    @apply font-montserrat;
+    @apply font-montserrat outline-none text-dark;
 }
 
 .flex-between-center {
     @apply flex justify-between items-center;
+}
+
+main {
+    height: calc(100vh - 80px);
+}
+
+.input-wrapper {
+    @apply mb-7;
+}
+
+.label {
+    @apply block mb-2 font-medium cursor-pointer;
+}
+
+.input {
+    @apply border border-dark/25 p-4 w-full rounded-md focus:border-primary;
 }

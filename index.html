@@ -13,23 +13,47 @@
 
 <body>
     <!-- ========== Start HEADERSection ========== -->
-    <header id="header" class="header bg-dark py-6">
+    <header id="header" class="header bg-dark">
         <div class="container">
-            <div class="flex-between-center">
+            <div class="flex-between-center h-20">
                 <h1 class="text-primary text-xl font-semibold">Profile Icon <span class="text-light">Generator</span></h1>
                 <ul class="about-info-wrapper flex-between-center gap-x-4">
                     <li>
-                        <a href="https://github.com/aatmaneoulmouden" target="_blank"><i class="fa-brands fa-github text-2xl text-light transition duration-300 ease-in-out hover:text-primary"></i></a>
+                        <a href="https://github.com/aatmaneoulmouden" target="_blank"><i class="fa-brands fa-github text-xl text-light transition duration-300 ease-in-out hover:text-primary"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/aatmaneoulmouden/" target="_blank"><i class="fa-brands fa-linkedin-in text-2xl text-light transition duration-300 ease-in-out hover:text-primary"></i></a>
+                        <a href="https://www.linkedin.com/in/aatmaneoulmouden/" target="_blank"><i class="fa-brands fa-linkedin-in text-xl text-light transition duration-300 ease-in-out hover:text-primary"></i></a>
                     </li>
                 </ul>
             </div>
         </div>
     </header>
     <!-- ========== End HEADERSection ========== -->
-
+    <main class="flex justify-center items-center">
+        <div class="container">
+            <div class="grid grid-cols-2">
+                <form class="form p-10 pl-0 border-r border-dark/30">
+                    <h2 class="text-xl font-semibold mb-8">Please fill the form bellow 👇</h2>
+                    <div class="input-wrapper">
+                        <label for="first-name" class="label">First Name</label>
+                        <input type="text" id="first-name" class="input" placeholder="Enter your first name here..." autocomplete="off">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="last-name" class="label">Last Name</label>
+                        <input type="text" id="last-name" class="input" placeholder="Enter your last name here..." autocomplete="off">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="color" class="label">Favorite Color</label>
+                        <input type="color" id="color" class="input" placeholder="Select your favorite color...">
+                    </div>
+                    <button type="submit" class="bg-primary py-4 px-8 rounded-md text-white text-lg font-medium block ml-auto">Generate</button>
+                </form>
+                <div class="result p-10 pr-0">
+                    Here is your result 🙂                    
+                </div>
+            </div>
+        </div>
+    </main>
     <!-- ========== Start SCRIPTS Section ========== -->
     <script src="./assets/js/main.js"></script>
     <!-- ========== End SCRIPTS Section ========== -->
