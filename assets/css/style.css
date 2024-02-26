@@ -834,6 +834,14 @@ video {
   height: 5rem;
 }
 
+.h-40{
+  height: 10rem;
+}
+
+.w-40{
+  width: 10rem;
+}
+
 .w-\[this-is\\\\\]{
   width: this-is\\;
 }
@@ -1689,8 +1697,8 @@ video {
   border-radius: 0.25rem;
 }
 
-.rounded-md{
-  border-radius: 0.375rem;
+.rounded-full{
+  border-radius: 9999px;
 }
 
 .rounded-b{
@@ -1815,11 +1823,6 @@ video {
 
 .border-none{
   border-style: none;
-}
-
-.border-black{
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .border-dark\/30{
@@ -1955,16 +1958,6 @@ video {
   padding: 2.5rem;
 }
 
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .pl-0{
   padding-left: 0px;
 }
@@ -2029,9 +2022,9 @@ video {
   vertical-align: super;
 }
 
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-xl{
@@ -2041,10 +2034,6 @@ video {
 
 .font-bold{
   font-weight: 700;
-}
-
-.font-medium{
-  font-weight: 500;
 }
 
 .font-semibold{
@@ -2512,6 +2501,22 @@ main {
 .input:focus{
   --tw-border-opacity: 1;
   border-color: rgb(46 204 113 / var(--tw-border-opacity));
+}
+
+.btn-primary{
+  display: block;
+  border-radius: 0.375rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(46 204 113 / var(--tw-bg-opacity));
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px){

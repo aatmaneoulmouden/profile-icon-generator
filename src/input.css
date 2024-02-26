@@ -27,3 +27,7 @@ main {
 .input {
     @apply border border-dark/25 p-4 w-full rounded-md focus:border-primary;
 }
+
+.btn-primary {
+    @apply bg-primary py-4 px-8 rounded-md text-white text-lg font-medium block;
+}
