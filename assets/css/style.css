@@ -830,8 +830,8 @@ video {
   display: none;
 }
 
-.h-20{
-  height: 5rem;
+.h-14{
+  height: 3.5rem;
 }
 
 .h-40{
@@ -2476,7 +2476,7 @@ video {
 }
 
 main {
-  height: calc(100vh - 80px);
+  height: calc(100vh - 112px);
 }
 
 .input-wrapper{
